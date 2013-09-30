@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <table>
+        <id>1</id>
+        <cabinet>vigneshchennai</cabinet>
+        <displayname>Currency Table Maintenance</displayname>
+        <tablename>curmaster</tablename>
+        <permittedgroup>CurrencyMasterGroup</permittedgroup>
+        <columns>
+            <column unique="true" >code</column>
+            <column unique="true">currency</column>
+            <column>exchange</column>
+        </columns>
+    </table>
+</settings>
